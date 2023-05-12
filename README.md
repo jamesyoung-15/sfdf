@@ -1,5 +1,5 @@
 # SFDF Project Documentation
-Worked on reading sensor data from various water sensors (eg. pH, DO, etc.) through RS485 to ESP32 and sending those data to AWS through SIM7600. The ESP32 can also connect to another ESP32 through ESP-Now and send commands to it with a master-slave connection.
+Reads sensor data from various water sensors (eg. pH, DO, etc.) through RS485 to ESP32 and sending those data to AWS through SIM7600. The ESP32 can also connect to another ESP32 through ESP-Now and send commands to it with a master-slave connection.
 
 The main overall Arduino code/sketch is [sfdf.ino](./sfdf.ino) (or see below). It uses 3 custom libraries I wrote. More documentation for the usage of each library are inside the README of the libraries.
 
